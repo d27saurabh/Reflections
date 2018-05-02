@@ -1,0 +1,50 @@
+Question1: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Answer: diff basically gives the difference between two files with reference to the line number at which tha difference is spotted.
+So in the exercise of game.js , 2 files were provided names game_old.js and game_new.js. There was a typo in one of the if cases conditions where space was written as spacr in the new file. 
+I was able to find the difference using diff game_old.js and game_new.js command, which shows the line number where the difference was occured in both the files
+
+In the process of the first exercise I went through basics of linux commands. cd, ls, pwd, mkdir, mv, chmod, rm, rmdir and many more commands.
+
+Also, i installed sublime text editor as this was the text editor that was used for future exercises in the udacity git course
+subl was the alias name saved in the ~/.bashrc file.
+
+All the paths and file name are stored in the bashrc file.
+
+***********************************************************************
+
+Question 2: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Answer: Having access to the history has many advantage:
+a.If we encouter an error in the new file and that erro was generated in the code that was common in teh both new and old files. then we can refer to the last modified file to get the error. 
+b. having log of file modification we can have a idea of how the different function or how the fiel was modified  and developed
+c. Thought process of the program can be understand using these hostory of files.
+
+***********************************************************************
+
+Question3:What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Answer: Pros: Manually adding reduces the frequency of illegical commits. Its always better to have logical funcationality added to the code or logical change happened to the code. Commiting after a fixed interval doest not gaurantee that whaterver you are working on is completed before comminting, and this only increase the git commit history size
+Cons: The only con is if someone forgets to commits tehre is no auto commit and then there may be large sizes of file i.e large code chunk has been change =d before the next commit which is not advisable
+
+***********************************************************************
+
+Question 4: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Answer: Git allows saving multiple linked file in a project. This is useful as taking an example of Android project, if there is a new button or UI element added in the application, its functionality is defined in the java file where as the UI entry is done in the xml file. Sacing multiple file allows to observe the changes made to both the java and the xml file this helps to know that a UI element was added and its functionality has been described.
+Where as Google docs saves each file differently as many of the file wriiten in google docs are not llinked to each other. I fthey are linked then it is a problem that it is not saving all teh files.
+
+***********************************************************************
+
+Question 5: How can you use the commands git log and git diff to view the history of files?
+Answer: git log command gives the all commit history of the file
+git diff <commit id 1> <commit id 2> gives the difference in these two commits.
+
+***********************************************************************
+
+Question 6:How might using version control make you more confident to make changes that could break something?
+Answer: Version control ofeers log of all previos commits. So if you know any commit that was working fine withour=t any errors and commits after that introduced he errors then we can figure which commit may have introduced the problem. Addition to that we can also figure out that using diff on these two commits, we can exactly know what part of the code caused this error and we can work on that
+
+***********************************************************************
+Question 7:Now that you have your workspace set up, what do you want to try using Git for?
+Answer: For android studio.
+
+
+***********************************************************************
+Question 8:
