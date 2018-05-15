@@ -4,4 +4,22 @@ Answer: When we initiaze the git repository, a blank folder with no contents in 
 Question 2: How is the staging area different from the working directory and the repository? What value do you think it offers?
 Answer: Staging area allows to group up the changes needed to be commited. one or many files needsd to be commited then they are first added to the staging area and then only one commit opration is dont on these files. 
 ***********************************************************************
-Question 3:
+Question 3: How can you use the staging area to make sure you have one commit per logical change?
+Answer: git add only those file which u want to commit. This helps to make sure that only one commit is done per logical change. git add filename basically adds the updated file to the staging area and then usoing git commit transfers the file from staging area to the commit repository.and the file is commited
+***********************************************************************
+Question 4:What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+So if for my application i wantto work on a experimental feature or just want to have the application in different language. So kepping my current working application intact, i can create a branch to work on the new feature. Idf that works out well then i can merge them or i can just contunie developing my application from the master itself.
+This is how branches helps to keep the project organized
+***********************************************************************
+Question 5: How do the diagrams help you visualize the branch structure?
+Answer: Diagrams helps to visualize the strcuture of the project.Branches that let from master and current structure helps to determine the unrecheable commints and helps us undertsnad the flow of commits.
+***********************************************************************
+Question 6:What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Answer: The merge results into adding the branch code into master. and the master points to new master.Representing helps to visualazise how exactly is the structure created and when and at what commits branches were merged
+***********************************************************************
+Question 7:What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Answer: Pros of automatic merging: If there is no conflicts, automatic merging helps to get add additional functionality	
+Cons of automatci merging ; May led to conflicts and errors
+Pros of manual merging: Conflits are handled by the authors
+Cons: Authors have to manage the conflicts
+***********************************************************************

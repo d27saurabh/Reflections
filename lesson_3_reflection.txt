@@ -1,2 +1,6 @@
-When would you want to use a remote repository rather than keeping all your work local?
-: When there are multiple people working on a project and need the access to the project code from different workstations. This helps in collaborating efficiently.
+1)When would you want to use a remote repository rather than keeping all your work local?
+Answer: When there are multiple people working on a project and need the access to the project code from different workstations. This helps in collaborating efficiently.
+********************************************************************************
+2) Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Answer: If first you need approval from the other collaborators of your project on the verification of the updated code which is being accesible to all on github. And once you have that approval you can update your local repository with the files from github repository.
+********************************************************************************
