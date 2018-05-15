@@ -16,3 +16,7 @@ Answer: The benifit is that we can merge the copy of the last known state of the
 Answer: Easier: As git and git hub provides an extreme easy way to organize and develope your project with others and helps us to keep track of the all the changes made in the project.
 Hard: All the concept of the push pull merge branch commit needs to be understand . A time invested at the start of  project will definitely hep in maintaining all future projects.
 ********************************************************************************
+6) When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Answer: When we want acknowledgement from other contributers to merge it in master. Second scenario would be , when we want to work on a experimental feature that we are not sure will work.
+Benefits are gives a very good way to separate the well established work and experimental work. Makes sure that merges are done only when all the contributors are agreed upon.
+********************************************************************************
