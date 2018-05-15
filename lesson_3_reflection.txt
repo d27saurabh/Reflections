@@ -4,3 +4,8 @@ Answer: When there are multiple people working on a project and need the access 
 2) Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Answer: If first you need approval from the other collaborators of your project on the verification of the updated code which is being accesible to all on github. And once you have that approval you can update your local repository with the files from github repository.
 ********************************************************************************
+3) Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Answer: Fork is bascially cloning the github repository from one user to your own github account. 
+Cloning is bascically coping the repository with all the commit history from the github account to local host machine and from local host to loscal host.
+Branching is totally different concept in which a branch of the exiting master is created. Whateever update is done in the branch is not reflected in the master until it is merged. Branching is used when we need to add new feature which we are not sure of. branches can be diicared or merged based upon the succeful implemnetation of the code.
+********************************************************************************
