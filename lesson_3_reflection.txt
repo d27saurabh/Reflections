@@ -12,3 +12,7 @@ Branching is totally different concept in which a branch of the exiting master i
 4) What is the benefit of having a copy of the last known state of the remote stored locally?
 Answer: The benifit is that we can merge the copy of the last known state of the remote stored and the last commit on the local host.
 ********************************************************************************
+5)How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Answer: Easier: As git and git hub provides an extreme easy way to organize and develope your project with others and helps us to keep track of the all the changes made in the project.
+Hard: All the concept of the push pull merge branch commit needs to be understand . A time invested at the start of  project will definitely hep in maintaining all future projects.
+********************************************************************************
