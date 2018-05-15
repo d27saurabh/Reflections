@@ -9,3 +9,6 @@ Answer: Fork is bascially cloning the github repository from one user to your ow
 Cloning is bascically coping the repository with all the commit history from the github account to local host machine and from local host to loscal host.
 Branching is totally different concept in which a branch of the exiting master is created. Whateever update is done in the branch is not reflected in the master until it is merged. Branching is used when we need to add new feature which we are not sure of. branches can be diicared or merged based upon the succeful implemnetation of the code.
 ********************************************************************************
+4) What is the benefit of having a copy of the last known state of the remote stored locally?
+Answer: The benifit is that we can merge the copy of the last known state of the remote stored and the last commit on the local host.
+********************************************************************************
